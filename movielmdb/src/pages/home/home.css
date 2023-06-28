@@ -6,6 +6,8 @@
     margin: auto;
     display: block;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .posterImage__overlay {
@@ -18,7 +20,7 @@
     width: 100%;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(41, 40, 44));
     opacity: 1;
     transition: opacity .3s;
 }   
